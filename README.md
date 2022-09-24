@@ -1,4 +1,5 @@
 # STEAM for Vietnam - CS 102 
+My name is Nhat Duy and this is my final project.
 
 Xem ghi chú tóm tắt các bài học: [LINK](https://github.com/STEAMforVietnam/cs102/tree/lesson-notes/notes)
 

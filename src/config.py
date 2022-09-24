@@ -112,15 +112,15 @@ class PlayerInventoryConfig:
 class PlayerBulletConfig:
     SPRITE_PATH: Path = ASSET_DIR / "items" / "player_bullet.png"
     SCALE: float = 0.7
-    SPEED: int = 35
+    SPEED: int = 40
     GRAVITY: int = 2
-    DAMAGE: int = 10
+    DAMAGE: int = 5
 
     # initial vertical movement
     INIT_DY: int = -10
 
     # the time between creation and deletion of entities of this type
-    TTL_MS: int = 400 * 60 // GameConfig.FPS
+    TTL_MS: int = 6000 * 5000 // GameConfig.FPS
 
 
 class ShadowConfig:
@@ -139,7 +139,7 @@ class ShadowBossConfig:
     DAMAGE: int = 1
     INITIAL_HP: int = 100
 
-    ANGRY_INTERVAL_MS: int = 7000
+    ANGRY_INTERVAL_MS: int = 5000
     ANGRY_DURATION_MS: int = 2000
 
     HURT_DURATION_MS: int = 500
@@ -148,7 +148,7 @@ class ShadowBossConfig:
 class ShadowBulletConfig:
     SPRITE_PATH: Path = ASSET_DIR / "items" / "shadow_bullet.png"
     SCALE: float = 0.05
-    SPEED: int = 5
+    SPEED: int = 7
     GRAVITY: int = 0.3
     DAMAGE: int = 1
 
@@ -156,7 +156,7 @@ class ShadowBulletConfig:
     INIT_DY: int = -15
 
     # the time between creation and deletion of entities of this type
-    TTL_MS: int = 3000
+    TTL_MS: int = 1900000
 
 
 class EndingBurgerConfig:
@@ -165,7 +165,7 @@ class EndingBurgerConfig:
     GRAVITY: float = 2.5
 
     # the time between creation and deletion of entities of this type
-    TTL_MS: int = 420
+    TTL_MS: int = 4200
 
 
 class TrampolineConfig:
